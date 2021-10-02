@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es-ES">
+
+<head>
+  <title>NicaSoft</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scañable=no">
+  <meta name="author" content="Enmanuel García Valle" />
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- FontAwesome css -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-white sticky-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand m-2 ml-lg-4" href="index.html"><img src="assets/logo.png" alt=""></a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#desplegable"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars text-white"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="navbar-collapse collapse text-white" id="desplegable">
+          <ul
+            class="container navbar-nav d-flex justify-content-center text-center flex-column flex-lg-row mb-2 mb-lg-0">
+
+            <!-- Link -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="#about">Sobre Nosotros</a>
+            </li>
+
+            <li class="nav-item dropdown dspl">
+              <a class="nav-link dropdown-toggle" href="#" id="ProductDrop" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Productos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="ProductDrop">
+                <a class="dropdown-item" href="#">Sectores Empresariales</a>
+                <a class="dropdown-item" href="#">Área Interna Empresarial</a>
+                <a class="dropdown-item" href="#">Productos a la Medida</a>
+                <a class="dropdown-item" href="#">Prueba gratuita</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown dspl">
+              <a class="nav-link dropdown-toggle" href="#" id="ServiceDrop" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Servicios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="ServiceDrop">
+                <a class="dropdown-item" href="#">Consultoría</a>
+                <a class="dropdown-item" href="#">Asesoría</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="#footer">Contáctanos</a>
+            </li>
+
+            <li class="nav-item dropdown dspl">
+              <a class="nav-link dropdown-toggle" href="#" id="CuentaDrop" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Cuenta
+              </a>
+              <div class="dropdown-menu" aria-labelledby="CuentaDrop">
+                <a class="dropdown-item" href="#">Perfil</a>
+                <a class="dropdown-item" href="#">Mis Productos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Cerrar Sesión</a>
+              </div>
+            </li>
+
+        </div>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="content-center">
+        <h1 class>¡Gestione su empresa y sus activos con nuestros productos!</h1>
+        <p>Ofrecemos nuestros productos con un 20% de descuento a clientes nuevos. ¡Aproveche!</p>
+        <a data-scroll href="#prod" class="btn btn-light mt-4"> Echar un vistazo <div class="fa fa-arrow-circle-right"
+            aria-hidden="true"></i></div></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container categorias py-5" id="prod">
+    <h2 class="text-center pb-2">Soluciones Tecnológicas</h2>
+    <div class="row justify-content-center">
+      <div class="col-11 col-md-4 my-3">
+        <img src="assets/sof.jpg" alt="" class="img-fluid">
+        <a href="#" class="btn btn-primary text-center mt-3 d-block">Software</a>
+      </div>
+
+      <div class="col-11 col-md-4 my-3">
+        <img src="assets/ases.jpg" alt="" class="img-fluid">
+        <a href="#" class="btn btn-primary text-center mt-3 d-block">Asesoría</a>
+      </div>
+
+      <div class="col-11 col-md-4 my-3">
+        <img src="assets/cons.jpg" alt="" class="img-fluid">
+        <a href="#" class="btn btn-primary text-center mt-3 d-block">Consultoría</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="about" class="container-fluid nosotros pt-1">
+    <div class="row">
+      <!-- <div class="col-12 col-lg-6 imagen-bg imagen-nosotros">      
+        </div> -->
+      <img src="assets/about.jpg" class=" col-12 col-lg-6 imagen">
+      <div class="col-12 col-lg-6 p-4 d-flex flex-column justify-content-center align-content-center">
+
+        <!-- <h2 class="titulo text-white">Acerca de Nosotros</h2><br> -->
+        <p class="text-white about">
+          <br>
+          Nuestra Misión: <br> Ofrecer soluciones de software profesional en Nicaragua, al mejor costo y
+          con la mejor calidad.
+          <br><br>
+          Nuestra Visión: <br> Ser la empresa líder en soluciones de software e impulsar el desarrollo tecnológico en
+          Nicaragua
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer id="footer" class="font-small cuerpo-footer text-white">
+    <!-- En caso de falla, añadir clase page-footer en la linea 109 -->
+
+    <div class="social-footer">
+      <div class="container">
+
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-white text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">¡Únase a nuestras redes sociales!</h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right iconos">
+            <!-- Facebook -->
+            <a>
+              <i class="fa fa-facebook-square white-text"> </i>
+            </a>
+            <!-- Twitter -->
+            <a>
+              <i class="fa fa-twitter-square white-text"> </i>
+            </a>
+            <!--Instagram-->
+            <a>
+              <i class="fa fa-youtube-square white-text"> </i>
+            </a>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5 ">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">NicaSoft</h6>
+          <hr class="separador mb-4 mt-0 d-inline-block mx-auto">
+          <p>Somos una empresa dedicada al desarrollo de software empresarial. Ofrecemos soluciones
+            diversas para el gran mercado nacional e internacional.
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Productos</h6>
+          <hr class="separador mb-4 mt-0 d-inline-block mx-auto">
+          <p>
+            <a href="#!">Por áreas</a>
+          </p>
+          <p>
+            <a href="#!">Por tipo de empresa</a>
+          </p>
+          <p>
+            <a href="#!">A medida</a>
+          </p>
+          <p>
+            <a href="#!">Prueba gratis</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Links de Interés</h6>
+          <hr class="separador mb-4 mt-0 d-inline-block mx-auto">
+          <p>
+            <a href="#!">Sugerir un producto</a>
+          </p>
+          <p>
+            <a href="#!">Crear una cuenta</a>
+          </p>
+          <p>
+            <a href="#!">Servicios</a>
+          </p>
+          <p>
+            <a href="#!">Ayuda</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Encuéntranos</h6>
+          <hr class="separador mb-4 mt-0 d-inline-block mx-auto">
+          <p>
+            <i class="fa fa-location-arrow mr-2"></i>Camino de Oriente, frente al edificio Pellas.
+          </p>
+          <p>
+            <i class="fa fa-envelope mr-2"></i> contacto@nicasoft.com
+          </p>
+          <p>
+            <i class="fa fa-phone mr-2"></i> + 505 2255 7891
+          </p>
+          <p>
+            <i class="fa fa-fax mr-2"></i> + 505 2255 7892
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright footer-copy text-center py-3">© 2021 Copyright:
+      <a href="index.html">NicaSoft.com</a>
+    </div>
+    <!-- Copyright -->
+
+    <a id="back-to-top" data-scroll href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+        class="fa fa-chevron-up"></i></a>
+
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/nav-animation.js"></script>
+
+
+  <!-- Scroll suave -->
+  <script>
+    smoothScroll.init({
+      speed: 1000, // Valor que expresa cuan rapido es el scroll, expresado en milisegundos(ms)
+      offset: 1, // Expresa la separacion que tendra el scroll respecto al objeto id, expresado en pixeles (px)
+    });
+  </script>
+</body>
+
+</html>

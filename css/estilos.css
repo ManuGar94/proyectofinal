@@ -1,0 +1,218 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    src: url("/Final/fonts/NotoSans-Bold.ttf"), url("/Final/fonts/NotoSans-BoldItalic.ttf"), 
+    url("/Final/fonts/NotoSans-Italic.ttf"), url("/Final/fonts/NotoSans-Regular.ttf");
+}
+
+:root {
+    --fuente-principal: "Noto Sans", sans-serif;
+    --color-bandera: rgb(0,32,91);
+    --color-bandera-dark: rgb(0,20,60);
+}
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+h6{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+body{
+    font-family: var(--fuente-principal);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    display: block;
+}
+
+.categorias h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.categorias a{
+    background: var(--color-bandera);
+    font-size: 20px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+@media screen and (max-width:991px){
+
+    .navbar .nav-item:not(:last-child) {
+        margin-right: 0px;
+    }
+
+}
+
+.dropdown-toggle::after {
+    -webkit-transition: -webkit-transform 0.15s linear;
+    transition: -webkit-transform 0.15s linear;
+    -o-transition: transform 0.15s linear;
+    transition: transform 0.15s linear;
+    transition: transform 0.15s linear, -webkit-transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+    -webkit-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+            transform: translateY(3px);
+}
+
+
+#hero{
+    background-image: url("../assets/hero.png");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffff;
+}
+
+
+
+.content-center{
+    max-width: 800px;
+    margin: 50px auto 60px auto;
+    text-align: center;
+}
+
+.content-center h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.content-center p{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 25px;
+}
+
+#hero .btn{
+
+    font-size: 16px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 3px;
+    display: inline-block; 
+}
+#hero .btn-ligth{
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid white;
+}
+
+
+footer a{
+    color: white;
+    font-weight:400;
+    opacity: 0.7;
+}
+
+footer a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    opacity: 1;    
+}
+
+.iconos{
+    font-size: 2rem;
+}
+
+.iconos>a{
+    margin-right: 3rem;
+}
+@media screen and (max-width:767px){
+    .iconos>a{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+.cuerpo-footer{
+    background:var(--color-bandera);
+}
+
+.footer-copy{
+    background: var(--color-bandera-dark);
+}
+
+.separador{
+    border-color: whitesmoke;
+    width: 60px;
+}
+
+img{
+    max-width: 70px;
+}
+
+header{
+    background: var(--color-bandera);
+    color: white;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 575px) { 
+    .content-center h1{
+        font-size: 30px;
+    }
+
+    .content-center p{
+        font-size: 20px;
+    }
+
+    #hero .btn{
+        font-size: 15px;
+    }
+
+    .categorias h2{
+        font-size: 25px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+.nosotros{
+    background: darkslategrey;
+}
+
+.imagen{
+    padding-top: 1.2rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+}
+
+.about{
+    font-size: 20px;
+}
